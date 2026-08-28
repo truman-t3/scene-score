@@ -1,0 +1,4 @@
+interface:
+  display_name: "场景乐谱"
+  short_description: "把照片里的光、方向、密度与留白转成视觉节奏"
+  default_prompt: "请用 $scene-score 把这张照片转成场景乐谱：先找出场景的拍点、延音与停顿，再将它们重构为有节奏的当代艺术图像。"

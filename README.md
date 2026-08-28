@@ -1,10 +1,12 @@
-# Scene Score
+# Scene Score v0.1.0
 
 **Score the scene. Make its rhythm visible.**
 
 [中文说明](README.zh-CN.md) · [Skill instructions](SKILL.md) · [Translation grammar](references/translation-grammar.md)
 
 Scene Score is a Codex skill that turns a photograph's light, movement, interval, density, and quiet space into a source-faithful contemporary art print.
+
+**Current release:** `v0.1.0` — first public release.
 
 It does not apply a fixed visual style. It reads the relationships already present in a scene, then makes those relationships visible as **pulse, phrase, rest, and accent**. The photograph remains evidence; the graphics become its score.
 
@@ -65,7 +67,7 @@ The package contains no scripts, API keys, external fonts, or downloaded runtime
 Clone this repository into the matching skill directory:
 
 ```bash
-git clone https://github.com/truman-t3/scene-score.git ~/.codex/skills/scene-score
+git clone https://github.com/truman-t3/scene-score-skills.git ~/.codex/skills/scene-score
 ```
 
 On Windows, the equivalent folder is usually `C:\Users\<your-name>\.codex\skills\scene-score\`.

@@ -1,10 +1,12 @@
-# 场景乐谱（Scene Score）
+# 场景乐谱（Scene Score）v0.1.0
 
 **为场景记谱，让它本来的节奏变得可见。**
 
 [English](README.md) · [Skill 指令](SKILL.md) · [转译规则](references/translation-grammar.md)
 
 场景乐谱是一个 Codex Skill：它将照片中的光、运动、间隔、密度和留白，转译为仍然忠于原场景的当代艺术图像。
+
+**当前版本：**`v0.1.0` —— 首个公开版本。
 
 它不套用固定风格，而是先读取照片里已经存在的关系，再把它们显现为**拍点、延音、停顿与重音**。照片仍然是事实依据；图形成为它的乐谱。
 
@@ -65,7 +67,7 @@
 将仓库克隆到对应的 Skill 目录：
 
 ```bash
-git clone https://github.com/truman-t3/scene-score.git ~/.codex/skills/scene-score
+git clone https://github.com/truman-t3/scene-score-skills.git ~/.codex/skills/scene-score
 ```
 
 在 Windows 中，对应文件夹通常是 `C:\Users\你的用户名\.codex\skills\scene-score\`。

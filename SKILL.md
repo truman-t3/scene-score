@@ -52,6 +52,10 @@ Identify these internally before generating; map them to the score roles above:
 
 Use [references/translation-grammar.md](references/translation-grammar.md) when deciding how an observed scene force becomes a score mark.
 
+## Optional Gallery Score language
+
+When the user asks for the visual language of the showcased works—large breathing space, a distilled photographic anchor, and a small number of forceful score marks—read [references/gallery-score.md](references/gallery-score.md). Treat it as an explicit composition family, not the automatic look for every photo.
+
 ## Build the contract
 
 Before image generation, state a compact contract:

@@ -1,4 +1,4 @@
-# Scene Score v0.2.0 draft
+# Scene Score
 
 **为场景记谱，让一张照片本来的节奏变得可见。**  
 **Score the scene. Make its rhythm visible.**
@@ -29,6 +29,12 @@ Scene Score 会把照片里的重复、方向、留白和色彩关系，变成�
 
 不需要先理解“拍点”或“延音”。你只需补充希望保留的对象、情绪，或想要更强/更克制的效果。
 
+想得到案例中这种更强的留白与提炼效果，可以直接说：
+
+```text
+请用 $scene-score 的 Gallery Score 模式处理这张图：保留主体，用大面积来自原图的留白，只保留一个主节拍、一条方向线和一个小重音；画面要像案例一样有明确的提炼与节奏。
+```
+
 ### 你会得到什么
 
 - 保留这张照片独有的人、物或地点。
@@ -37,26 +43,55 @@ Scene Score 会把照片里的重复、方向、留白和色彩关系，变成�
 
 ## 案例
 
-### 雨街：原图 → 场景乐谱
+下面直接展示项目的完整案例，不把成图藏到评测链接里。每张都保留场景来源与不同的记谱方式。
+
+### 雨街：原图 → 路径节奏
 
 斑马线成为拍点，通向公交车的路线成为延音，雨雾留下停顿，店铺暖光成为一次重音。
 
 | 原图 | 场景乐谱 |
 | --- | --- |
-| ![雨街原图](examples/rain-street-source.jpg) | ![雨街场景乐谱](examples/rain-street-v0.2-score.jpg) |
+| ![雨街原图](examples/rain-street-source.jpg) | ![雨街路径节奏版本](examples/rain-street-score.png) |
 
-同一方法还在两类不同场景中验证：
+### 雨街：雾中留白版
 
-- **阶梯大厅：**台阶重复成为上行节奏，栏杆延续为方向。
-- **雾湖银杏：**叶片和芦苇密度成为拍点，船迹与地平线延展为水面方向。
+不把照片压成滤镜，而是让雾的空白、斑马线的间隔和细线路线共同组织画面。
+
+![雨街雾中留白版](examples/rain-street-score-mist.png)
+
+### 阶梯大厅：上行节拍
+
+真实台阶被放大为向上的不等节拍，栏杆延续为一条贯穿画面的方向线。
+
+| 原图 | 场景乐谱 |
+| --- | --- |
+| ![阶梯大厅原图](examples/stair-hall-source.jpg) | ![阶梯大厅场景乐谱](examples/stair-hall-score.png) |
+
+### 雾湖银杏：自然密度
+
+叶片和芦苇的聚散成为拍点，雾、水线和小船留下更安静的延音。
+
+| 原图 | 场景乐谱 |
+| --- | --- |
+| ![雾湖银杏原图](examples/misty-ginkgo-source.jpg) | ![雾湖银杏场景乐谱](examples/misty-ginkgo-score.jpg) |
+
+### 香水静物：光线谱面
+
+桌面光束、瓶身阴影和枝条方向被整理为轻盈的纵向节奏，说明方法也能用于产品与静物场景。
+
+| 原图 | 场景乐谱 |
+| --- | --- |
+| ![香水静物原图](examples/perfume-still-life-source.png) | ![香水静物场景乐谱](examples/perfume-still-life-score.png) |
+
+三条评测仍用于检查方法是否成立，但它们不替代这组公开案例。
 
 完整案例文件在 [`examples/`](examples/) 中；每次版本调整都用 [三场景评测](evals/scene-score-evals.md) 复查。
 
 ### 示例素材
 
-仓库中的示例图与封面均为 Scene Score 项目制作的演示素材，不含第三方照片；它们随本仓库的 MIT 许可提供。使用你自己的照片时，请先确认你拥有相应的使用权限。
+仓库中的示例图与封面均由 Scene Score 项目提供用于展示；使用你自己的照片或补充案例前，请先确认你拥有相应的使用权限。
 
-The example images and cover are Scene Score demonstration assets, with no third-party photographs included. They are provided under this repository's MIT license. Make sure you have permission before using your own photos.
+The example images and cover are supplied by the Scene Score project for demonstration. Make sure you have permission before using your own photos or adding new examples.
 
 ## 项目标签
 
@@ -64,9 +99,9 @@ The example images and cover are Scene Score demonstration assets, with no third
 
 ## 当前状态
 
-当前公开稳定版为 [v0.2.0](https://github.com/truman-t3/scene-score-skills/releases/tag/v0.2.0)。它增加自然景观案例、三场景评测与更安全的 Agent 安装提示词。
+当前公开稳定版为 [v0.2.1](https://github.com/truman-t3/scene-score-skills/releases/tag/v0.2.1)。它恢复完整案例墙，增加 Gallery Score 模式与静物评测。
 
-想查看方法规则、评测或更新记录： [Skill 指令](SKILL.md) · [转译规则](references/translation-grammar.md) · [评测集](evals/scene-score-evals.md) · [v0.2 复测记录](evals/v0.2-validation.md) · [更新记录](CHANGELOG.md)
+想查看方法规则、评测或更新记录： [Skill 指令](SKILL.md) · [转译规则](references/translation-grammar.md) · [画廊式构图规则](references/gallery-score.md) · [评测集](evals/scene-score-evals.md) · [v0.2.1 复测记录](evals/v0.2.1-validation.md) · [更新记录](CHANGELOG.md)
 
 ---
 
@@ -88,6 +123,8 @@ Upload a photo, then write:
 Use $scene-score to turn this photo into a Scene Score. Keep the subject and create a clear, restrained artistic transformation.
 ```
 
+For the showcased large-rest, distilled treatment, add: `Use Gallery Score mode: retain the subject, reserve a large source-derived quiet field, and use one dominant rhythm, one directional phrase, and at most one accent.`
+
 ### What it does
 
 - Retains the people, objects, and places that make a photograph specific.
@@ -100,6 +137,6 @@ See the [examples](examples/) and the three-scene [evaluation set](evals/scene-s
 
 `codex-skill` · `image-generation` · `photo-to-art` · `generative-art` · `visual-rhythm` · `creative-tools` · `photography`
 
-The public stable release is [v0.2.0](https://github.com/truman-t3/scene-score-skills/releases/tag/v0.2.0), adding a natural-field case, three scene checks, and a safer agent install prompt.
+The public stable release is [v0.2.1](https://github.com/truman-t3/scene-score-skills/releases/tag/v0.2.1), restoring the full gallery and adding Gallery Score plus a still-life check.
 
-For the full method and evaluation set: [Skill instructions](SKILL.md) · [Translation grammar](references/translation-grammar.md) · [Evaluation set](evals/scene-score-evals.md) · [v0.2 run notes](evals/v0.2-validation.md) · [Changelog](CHANGELOG.md)
+For the full method and evaluation set: [Skill instructions](SKILL.md) · [Translation grammar](references/translation-grammar.md) · [Gallery Score guide](references/gallery-score.md) · [Evaluation set](evals/scene-score-evals.md) · [v0.2.1 run notes](evals/v0.2.1-validation.md) · [Changelog](CHANGELOG.md)

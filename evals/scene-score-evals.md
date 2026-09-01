@@ -2,7 +2,7 @@
 
 Use this set after a material change to `SKILL.md`, the translation grammar, or an image-generation workflow. It guards the method's observable behaviour; it does not prescribe a layout or demand pixel-matched output.
 
-在 `SKILL.md`、转译规则或图像生成流程出现实质改动后使用本评测集。它保护的是可观察的行为，不规定固定版式，也不要求像素级一致。
+在 `SKILL.md`、转译规则或图像生成流程出现实质改动后使用本评测集。它保护的是可观察的行为，不规定固定版式，也不要求像素级一致。需要由独立人员、会话或模型复测时，使用 [独立复现流程](reproduction-protocol.md)。
 
 ## How to assess / 如何判断
 

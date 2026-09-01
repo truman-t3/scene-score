@@ -1,5 +1,14 @@
 # Changelog / 更新记录
 
+## v0.2.3 — 2026-09-01
+
+- Licenses the repository's supplied example image assets under CC BY 4.0 and provides a bilingual attribution template.
+- 将仓库提供的示例图片素材明确为 CC BY 4.0 开放授权，并提供中英文署名格式。
+- Adds a three-run independent reproduction protocol and corrects the Skill's evaluation count from three scenes to four.
+- Adds concise contribution, conduct, issue, and pull-request entry points for public collaboration.
+- 增加三次独立复现流程，并修正 Skill 中误写为三场景的评测数量。
+- 增加精简的贡献、行为准则、Issue 与 Pull Request 协作入口。
+
 ## v0.2.2 — 2026-09-01
 
 - Completes the English README with manual installation, full gallery captions, four-scene evaluation guidance, demo-asset rights, and release information.

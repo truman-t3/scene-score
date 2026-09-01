@@ -89,9 +89,9 @@ Scene Score 会把照片里的重复、方向、留白和色彩关系，变成�
 
 ### 示例素材
 
-仓库中的示例图与封面均由 Scene Score 项目提供用于展示；使用你自己的照片或补充案例前，请先确认你拥有相应的使用权限。
+仓库中的示例图与封面以 [CC BY 4.0 开放授权](ASSET-LICENSE.md)：允许使用与改编，但必须署名、链接许可并标明改动。使用你自己的照片或补充案例前，请先确认你拥有相应的使用权限。
 
-The example images and cover are supplied by the Scene Score project for demonstration. Make sure you have permission before using your own photos or adding new examples.
+The example images and cover are available under [CC BY 4.0](ASSET-LICENSE.md): reuse and adaptation are welcome with attribution, a license link, and an indication of changes. Make sure you have permission before using your own photos or adding new examples.
 
 ## 项目标签
 
@@ -99,9 +99,9 @@ The example images and cover are supplied by the Scene Score project for demonst
 
 ## 当前状态
 
-当前公开稳定版为 [v0.2.2](https://github.com/truman-t3/scene-score-skills/releases/tag/v0.2.2)。它恢复完整案例墙，增加 Gallery Score 模式与静物评测，并补齐独立可读的英文说明。
+当前公开稳定版为 [v0.2.3](https://github.com/truman-t3/scene-score-skills/releases/tag/v0.2.3)。它补齐示例图片开放授权、独立复现流程和开源协作入口。
 
-想查看方法规则、评测或更新记录： [Skill 指令](SKILL.md) · [转译规则](references/translation-grammar.md) · [画廊式构图规则](references/gallery-score.md) · [评测集](evals/scene-score-evals.md) · [v0.2.1 复测记录](evals/v0.2.1-validation.md) · [更新记录](CHANGELOG.md)
+想查看方法规则、评测或更新记录： [Skill 指令](SKILL.md) · [转译规则](references/translation-grammar.md) · [画廊式构图规则](references/gallery-score.md) · [四场景评测集](evals/scene-score-evals.md) · [独立复现流程](evals/reproduction-protocol.md) · [v0.2.1 复测记录](evals/v0.2.1-validation.md) · [参与贡献](CONTRIBUTING.md) · [更新记录](CHANGELOG.md)
 
 ---
 
@@ -189,11 +189,11 @@ The light beam, bottle shadow, and branch direction form a light vertical rhythm
 
 ### Evaluation
 
-The four checks—Rain Street, Stair Hall, Misty Ginkgo, and Perfume Still Life—protect subject fidelity and composition hierarchy without promising pixel-identical results. Read the [evaluation set](evals/scene-score-evals.md) and [v0.2.1 validation notes](evals/v0.2.1-validation.md) for their sources, intended outputs, and acceptance criteria.
+The four checks—Rain Street, Stair Hall, Misty Ginkgo, and Perfume Still Life—protect subject fidelity and composition hierarchy without promising pixel-identical results. Use the [evaluation set](evals/scene-score-evals.md) for its sources and acceptance criteria; use the [independent reproduction protocol](evals/reproduction-protocol.md) to test a material change across three fresh runs.
 
 ### Demo assets
 
-The example images and cover artwork are provided by the Scene Score project for display. Before using your own photos or adding examples, make sure you hold the appropriate rights.
+The example images and cover artwork are available under [CC BY 4.0](ASSET-LICENSE.md). Reuse and adaptation are welcome with attribution, a license link, and an indication of changes. Before using your own photos or adding examples, make sure you hold the appropriate rights.
 
 ### Project tags
 
@@ -201,6 +201,6 @@ The example images and cover artwork are provided by the Scene Score project for
 
 ### Current release
 
-The current public release is [v0.2.2](https://github.com/truman-t3/scene-score-skills/releases/tag/v0.2.2). It restores the full gallery, adds Gallery Score plus a still-life check, and completes the English README as an independent reading path.
+The current public release is [v0.2.3](https://github.com/truman-t3/scene-score-skills/releases/tag/v0.2.3). It completes example-image licensing, independent reproduction guidance, and the open-source contribution entry points.
 
-For the full method and evaluation set: [Skill instructions](SKILL.md) · [Translation grammar](references/translation-grammar.md) · [Gallery Score guide](references/gallery-score.md) · [Evaluation set](evals/scene-score-evals.md) · [v0.2.1 run notes](evals/v0.2.1-validation.md) · [Changelog](CHANGELOG.md)
+For the full method and evaluation set: [Skill instructions](SKILL.md) · [Translation grammar](references/translation-grammar.md) · [Gallery Score guide](references/gallery-score.md) · [Evaluation set](evals/scene-score-evals.md) · [Independent reproduction protocol](evals/reproduction-protocol.md) · [Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md)

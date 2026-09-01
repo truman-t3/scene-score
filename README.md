@@ -83,9 +83,9 @@ Scene Score 会把照片里的重复、方向、留白和色彩关系，变成�
 | --- | --- |
 | ![香水静物原图](examples/perfume-still-life-source.png) | ![香水静物场景乐谱](examples/perfume-still-life-score.png) |
 
-三条评测仍用于检查方法是否成立，但它们不替代这组公开案例。
+四条评测仍用于检查方法是否成立，但它们不替代这组公开案例。
 
-完整案例文件在 [`examples/`](examples/) 中；每次版本调整都用 [三场景评测](evals/scene-score-evals.md) 复查。
+完整案例文件在 [`examples/`](examples/) 中；每次版本调整都用 [四场景评测](evals/scene-score-evals.md) 复查。
 
 ### 示例素材
 
@@ -99,7 +99,7 @@ The example images and cover are supplied by the Scene Score project for demonst
 
 ## 当前状态
 
-当前公开稳定版为 [v0.2.1](https://github.com/truman-t3/scene-score-skills/releases/tag/v0.2.1)。它恢复完整案例墙，增加 Gallery Score 模式与静物评测。
+当前公开稳定版为 [v0.2.2](https://github.com/truman-t3/scene-score-skills/releases/tag/v0.2.2)。它恢复完整案例墙，增加 Gallery Score 模式与静物评测，并补齐独立可读的英文说明。
 
 想查看方法规则、评测或更新记录： [Skill 指令](SKILL.md) · [转译规则](references/translation-grammar.md) · [画廊式构图规则](references/gallery-score.md) · [评测集](evals/scene-score-evals.md) · [v0.2.1 复测记录](evals/v0.2.1-validation.md) · [更新记录](CHANGELOG.md)
 
@@ -109,11 +109,21 @@ The example images and cover are supplied by the Scene Score project for demonst
 
 Scene Score turns the repetitions, directions, quiet space, and colour relationships in a photograph into a contemporary art image. It is not a filter: the people, places, and objects remain specific to your photo while graphics reveal its existing rhythm.
 
-### Ask your agent to install it
+### Install with your agent
 
 ```text
 Please install Scene Score from https://github.com/truman-t3/scene-score-skills into my Codex Skills directory as scene-score. Keep my existing skills untouched. If scene-score already exists, report its current version and do not overwrite it unless I confirm. Then confirm that I can call it with $scene-score.
 ```
+
+### Install manually
+
+Download this repository as a ZIP, unpack it, and place the contents in:
+
+```text
+C:\Users\<your-user>\.codex\skills\scene-score\
+```
+
+Then restart Codex. If you already have a `scene-score` folder, make a backup first.
 
 ### Use it
 
@@ -123,20 +133,74 @@ Upload a photo, then write:
 Use $scene-score to turn this photo into a Scene Score. Keep the subject and create a clear, restrained artistic transformation.
 ```
 
-For the showcased large-rest, distilled treatment, add: `Use Gallery Score mode: retain the subject, reserve a large source-derived quiet field, and use one dominant rhythm, one directional phrase, and at most one accent.`
+For the showcased large-rest, distilled treatment, use Gallery Score mode:
 
-### What it does
+```text
+Use $scene-score in Gallery Score mode: retain the subject, reserve a large source-derived quiet field, and use one dominant rhythm, one directional phrase, and at most one accent.
+```
 
-- Retains the people, objects, and places that make a photograph specific.
-- Turns routes, steps, leaves, waves, light, and quiet space into visible rhythm.
-- Creates an original art image rather than applying a fixed poster layout.
+### What you get
 
-See the [examples](examples/) and the three-scene [evaluation set](evals/scene-score-evals.md).
+- A reading of the photo before composing: subject, light, movement, intervals, and usable rest.
+- A restrained or expressive path rather than one fixed look.
+- A finished image plus a compact score explaining the visual decisions.
+
+### Gallery
+
+The full gallery above is shared by Chinese and English readers. These cases show the intended range: photo-led work with deliberate breathing room and a small number of clear visual beats.
+
+#### Rain street — route rhythm
+
+Zebra crossings become beats, the route to the bus becomes a sustained phrase, rain and haze make the rest, and the shop light becomes an accent.
+
+| Source photo | Scene Score |
+| --- | --- |
+| ![Rain street source](examples/rain-street-source.jpg) | ![Rain street route rhythm](examples/rain-street-score.png) |
+
+#### Rain street — fog and rest
+
+Fog, the intervals between crossings, and one fine route line organise the picture without reducing it to a filter.
+
+![Rain street with fog and rest](examples/rain-street-score-mist.png)
+
+#### Stair hall — ascending pulse
+
+The physical stairs are rebuilt as uneven upward beats; the handrail continues as one directional line through the picture.
+
+| Source photo | Scene Score |
+| --- | --- |
+| ![Stair hall source](examples/stair-hall-source.jpg) | ![Stair hall ascending pulse](examples/stair-hall-score.png) |
+
+#### Misty ginkgo — natural density
+
+Clusters and gaps of leaves and reeds become beats, while mist, water, and the small boat retain a quieter sustain.
+
+| Source photo | Scene Score |
+| --- | --- |
+| ![Misty ginkgo source](examples/misty-ginkgo-source.jpg) | ![Misty ginkgo natural density](examples/misty-ginkgo-score.jpg) |
+
+#### Perfume still life — light score
+
+The light beam, bottle shadow, and branch direction form a light vertical rhythm, showing that the method also works for product and still-life photography.
+
+| Source photo | Scene Score |
+| --- | --- |
+| ![Perfume still life source](examples/perfume-still-life-source.png) | ![Perfume still life light score](examples/perfume-still-life-score.png) |
+
+### Evaluation
+
+The four checks—Rain Street, Stair Hall, Misty Ginkgo, and Perfume Still Life—protect subject fidelity and composition hierarchy without promising pixel-identical results. Read the [evaluation set](evals/scene-score-evals.md) and [v0.2.1 validation notes](evals/v0.2.1-validation.md) for their sources, intended outputs, and acceptance criteria.
+
+### Demo assets
+
+The example images and cover artwork are provided by the Scene Score project for display. Before using your own photos or adding examples, make sure you hold the appropriate rights.
 
 ### Project tags
 
 `codex-skill` · `image-generation` · `photo-to-art` · `generative-art` · `visual-rhythm` · `creative-tools` · `photography`
 
-The public stable release is [v0.2.1](https://github.com/truman-t3/scene-score-skills/releases/tag/v0.2.1), restoring the full gallery and adding Gallery Score plus a still-life check.
+### Current release
+
+The current public release is [v0.2.2](https://github.com/truman-t3/scene-score-skills/releases/tag/v0.2.2). It restores the full gallery, adds Gallery Score plus a still-life check, and completes the English README as an independent reading path.
 
 For the full method and evaluation set: [Skill instructions](SKILL.md) · [Translation grammar](references/translation-grammar.md) · [Gallery Score guide](references/gallery-score.md) · [Evaluation set](evals/scene-score-evals.md) · [v0.2.1 run notes](evals/v0.2.1-validation.md) · [Changelog](CHANGELOG.md)

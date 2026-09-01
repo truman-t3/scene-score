@@ -1,5 +1,10 @@
 # Changelog / 更新记录
 
+## v0.2.2 — 2026-09-01
+
+- Completes the English README with manual installation, full gallery captions, four-scene evaluation guidance, demo-asset rights, and release information.
+- 补齐英文 README：增加手动安装、完整案例说明、四场景评测、示例素材权限与版本状态说明。
+
 ## v0.2.1 — 2026-08-31
 
 - Restores the stronger rain-street and stair-hall artworks, and shows a full public gallery on the homepage instead of only one paired example.

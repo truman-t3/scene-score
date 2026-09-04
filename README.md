@@ -3,6 +3,17 @@
 **为场景记谱，让一张照片本来的节奏变得可见。**  
 **Score the scene. Make its rhythm visible.**
 
+<p align="center">
+  <img src="examples/stair-hall-source.jpg" alt="阶梯大厅原图 / Stair hall source photograph" width="36%" />
+  <img src="examples/stair-hall-v0.2-bright-score.jpg" alt="阶梯大厅场景乐谱 / Stair hall Scene Score" width="36%" />
+</p>
+
+<p align="center">
+  <strong>原图 → 场景乐谱 &nbsp; / &nbsp; Source photograph → Scene Score</strong><br />
+  不是套滤镜：让照片自己的台阶、光线、路径与留白，成为成图的节奏。<br />
+  Not a filter: the photograph's own stairs, light, direction, and quiet space become the composition.
+</p>
+
 [中文说明](#中文说明) · [English](#english) · [案例](#案例) · [项目标签](#项目标签)
 
 ## 中文说明
@@ -51,13 +62,7 @@ Scene Score 会把照片里的重复、方向、留白和色彩关系，变成�
 
 | 原图 | 场景乐谱 |
 | --- | --- |
-| ![雨街原图](examples/rain-street-source.jpg) | ![雨街路径节奏版本](examples/rain-street-score.png) |
-
-### 雨街：雾中留白版
-
-不把照片压成滤镜，而是让雾的空白、斑马线的间隔和细线路线共同组织画面。
-
-![雨街雾中留白版](examples/rain-street-score-mist.png)
+| ![雨街原图](examples/rain-street-source.jpg) | ![雨街路径节奏版本](examples/rain-street-v0.2-score.jpg) |
 
 ### 阶梯大厅：上行节拍
 
@@ -65,7 +70,7 @@ Scene Score 会把照片里的重复、方向、留白和色彩关系，变成�
 
 | 原图 | 场景乐谱 |
 | --- | --- |
-| ![阶梯大厅原图](examples/stair-hall-source.jpg) | ![阶梯大厅场景乐谱](examples/stair-hall-score.png) |
+| ![阶梯大厅原图](examples/stair-hall-source.jpg) | ![阶梯大厅场景乐谱](examples/stair-hall-v0.2-bright-score.jpg) |
 
 ### 雾湖银杏：自然密度
 
@@ -75,17 +80,9 @@ Scene Score 会把照片里的重复、方向、留白和色彩关系，变成�
 | --- | --- |
 | ![雾湖银杏原图](examples/misty-ginkgo-source.jpg) | ![雾湖银杏场景乐谱](examples/misty-ginkgo-score.jpg) |
 
-### 香水静物：光线谱面
+三条评测仍用于检查方法是否成立，但它们不替代这组公开案例。
 
-桌面光束、瓶身阴影和枝条方向被整理为轻盈的纵向节奏，说明方法也能用于产品与静物场景。
-
-| 原图 | 场景乐谱 |
-| --- | --- |
-| ![香水静物原图](examples/perfume-still-life-source.png) | ![香水静物场景乐谱](examples/perfume-still-life-score.png) |
-
-四条评测仍用于检查方法是否成立，但它们不替代这组公开案例。
-
-完整案例文件在 [`examples/`](examples/) 中；每次版本调整都用 [四场景评测](evals/scene-score-evals.md) 复查。
+完整案例文件在 [`examples/`](examples/) 中；每次版本调整都用 [三场景评测](evals/scene-score-evals.md) 复查。
 
 ### 示例素材
 
@@ -99,9 +96,9 @@ The example images and cover are available under [CC BY 4.0](ASSET-LICENSE.md): 
 
 ## 当前状态
 
-当前公开稳定版为 [v0.2.3](https://github.com/truman-t3/scene-score-skills/releases/tag/v0.2.3)。它补齐示例图片开放授权、独立复现流程和开源协作入口。
+当前公开稳定版为 [v0.2.4](https://github.com/truman-t3/scene-score-skills/releases/tag/v0.2.4)。它将公开案例收束为三组可复查的场景，并把“原图 → 场景乐谱”对照放到首页第一屏。
 
-想查看方法规则、评测或更新记录： [Skill 指令](SKILL.md) · [转译规则](references/translation-grammar.md) · [画廊式构图规则](references/gallery-score.md) · [四场景评测集](evals/scene-score-evals.md) · [独立复现流程](evals/reproduction-protocol.md) · [v0.2.1 复测记录](evals/v0.2.1-validation.md) · [参与贡献](CONTRIBUTING.md) · [更新记录](CHANGELOG.md)
+想查看方法规则、评测或更新记录： [Skill 指令](SKILL.md) · [转译规则](references/translation-grammar.md) · [画廊式构图规则](references/gallery-score.md) · [三场景评测集](evals/scene-score-evals.md) · [独立复现流程](evals/reproduction-protocol.md) · [当前复测记录](evals/v0.2-validation.md) · [参与贡献](CONTRIBUTING.md) · [更新记录](CHANGELOG.md)
 
 ---
 
@@ -155,13 +152,7 @@ Zebra crossings become beats, the route to the bus becomes a sustained phrase, r
 
 | Source photo | Scene Score |
 | --- | --- |
-| ![Rain street source](examples/rain-street-source.jpg) | ![Rain street route rhythm](examples/rain-street-score.png) |
-
-#### Rain street — fog and rest
-
-Fog, the intervals between crossings, and one fine route line organise the picture without reducing it to a filter.
-
-![Rain street with fog and rest](examples/rain-street-score-mist.png)
+| ![Rain street source](examples/rain-street-source.jpg) | ![Rain street route rhythm](examples/rain-street-v0.2-score.jpg) |
 
 #### Stair hall — ascending pulse
 
@@ -169,7 +160,7 @@ The physical stairs are rebuilt as uneven upward beats; the handrail continues a
 
 | Source photo | Scene Score |
 | --- | --- |
-| ![Stair hall source](examples/stair-hall-source.jpg) | ![Stair hall ascending pulse](examples/stair-hall-score.png) |
+| ![Stair hall source](examples/stair-hall-source.jpg) | ![Stair hall ascending pulse](examples/stair-hall-v0.2-bright-score.jpg) |
 
 #### Misty ginkgo — natural density
 
@@ -179,17 +170,9 @@ Clusters and gaps of leaves and reeds become beats, while mist, water, and the s
 | --- | --- |
 | ![Misty ginkgo source](examples/misty-ginkgo-source.jpg) | ![Misty ginkgo natural density](examples/misty-ginkgo-score.jpg) |
 
-#### Perfume still life — light score
-
-The light beam, bottle shadow, and branch direction form a light vertical rhythm, showing that the method also works for product and still-life photography.
-
-| Source photo | Scene Score |
-| --- | --- |
-| ![Perfume still life source](examples/perfume-still-life-source.png) | ![Perfume still life light score](examples/perfume-still-life-score.png) |
-
 ### Evaluation
 
-The four checks—Rain Street, Stair Hall, Misty Ginkgo, and Perfume Still Life—protect subject fidelity and composition hierarchy without promising pixel-identical results. Use the [evaluation set](evals/scene-score-evals.md) for its sources and acceptance criteria; use the [independent reproduction protocol](evals/reproduction-protocol.md) to test a material change across three fresh runs.
+The three checks—Rain Street, Stair Hall, and Misty Ginkgo—protect subject fidelity and composition hierarchy without promising pixel-identical results. Use the [evaluation set](evals/scene-score-evals.md) for its sources and acceptance criteria; use the [independent reproduction protocol](evals/reproduction-protocol.md) to test a material change across three fresh runs.
 
 ### Demo assets
 
@@ -201,6 +184,6 @@ The example images and cover artwork are available under [CC BY 4.0](ASSET-LICEN
 
 ### Current release
 
-The current public release is [v0.2.3](https://github.com/truman-t3/scene-score-skills/releases/tag/v0.2.3). It completes example-image licensing, independent reproduction guidance, and the open-source contribution entry points.
+The current public release is [v0.2.4](https://github.com/truman-t3/scene-score-skills/releases/tag/v0.2.4). It keeps three reviewable public cases and moves a source-to-score pair to the first screen.
 
-For the full method and evaluation set: [Skill instructions](SKILL.md) · [Translation grammar](references/translation-grammar.md) · [Gallery Score guide](references/gallery-score.md) · [Evaluation set](evals/scene-score-evals.md) · [Independent reproduction protocol](evals/reproduction-protocol.md) · [Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md)
+For the full method and evaluation set: [Skill instructions](SKILL.md) · [Translation grammar](references/translation-grammar.md) · [Gallery Score guide](references/gallery-score.md) · [Three-scene evaluation set](evals/scene-score-evals.md) · [Independent reproduction protocol](evals/reproduction-protocol.md) · [Current validation runs](evals/v0.2-validation.md) · [Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md)

@@ -100,7 +100,7 @@ Inspect at normal size and thumbnail size. Accept the first image only when all 
 
 If a result fails, make one targeted revision that restores one source relationship or removes one untraceable motif. Do not regenerate merely to obtain random variations.
 
-For a material change to this Skill, run the four scene checks in [evals/scene-score-evals.md](evals/scene-score-evals.md). For an independent forward test, also use [evals/reproduction-protocol.md](evals/reproduction-protocol.md). They test observed relationships and rejection conditions, not pixel matching; do not turn them into a new fixed layout recipe.
+For a material change to this Skill, run the three current scene checks in [evals/scene-score-evals.md](evals/scene-score-evals.md). For an independent forward test, also use [evals/reproduction-protocol.md](evals/reproduction-protocol.md). They test observed relationships and rejection conditions, not pixel matching; do not turn them into a new fixed layout recipe.
 
 ## Deliver
 

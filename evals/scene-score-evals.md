@@ -26,7 +26,7 @@ For each prompt, inspect the generated image at normal and thumbnail size. Pass 
 
 **Reject / 拒绝：** a near-identical filtered photo; an unrelated circle or stripe recipe; a pasted photographic sticker with disconnected graphics.
 
-**v0.2.1 evidence / v0.2.1 证据：** [`rain-street-score.png`](../examples/rain-street-score.png) · [run note](v0.2.1-validation.md)
+**Current evidence / 当前证据：** [`rain-street-v0.2-score.jpg`](../examples/rain-street-v0.2-score.jpg) · [run note](v0.2-validation.md)
 
 ## 02 · Stair hall / 阶梯大厅
 
@@ -44,7 +44,7 @@ For each prompt, inspect the generated image at normal and thumbnail size. Pass 
 
 **Reject / 拒绝：** a generic architectural poster; equal decorative bars with no relation to the treads; dark grading alone presented as transformation.
 
-**v0.2.1 evidence / v0.2.1 证据：** [`stair-hall-score.png`](../examples/stair-hall-score.png) · [run note](v0.2.1-validation.md)
+**Current evidence / 当前证据：** [`stair-hall-v0.2-bright-score.jpg`](../examples/stair-hall-v0.2-bright-score.jpg) · [run note](v0.2-validation.md)
 
 ## 03 · Misty ginkgo / 雾湖银杏
 
@@ -62,26 +62,7 @@ For each prompt, inspect the generated image at normal and thumbnail size. Pass 
 
 **Reject / 拒绝：** a full flat canopy silhouette; identical reeds; only fog, paper grain, or colour grading added to the original landscape.
 
-**v0.2.1 evidence / v0.2.1 证据：** [`misty-ginkgo-score.jpg`](../examples/misty-ginkgo-score.jpg) · [run note](v0.2.1-validation.md)
-
-## 04 · Perfume still life / 香水静物
-
-**Source / 原图：** [`perfume-still-life-source.png`](../examples/perfume-still-life-source.png)
-
-**Input condition / 输入场景：** An amber perfume bottle on a pale tabletop, paper sheet, dried branch, warm window light, and a diagonal cast shadow.
-
-**Request / 请求：** Use `$scene-score` in expressive Gallery Score mode. Preserve the bottle, stopper, paper, branch, and the light/shadow relationship. Make window shafts the pulse, the diagonal light the phrase, tabletop or wall the rest, and the bottle colour the accent.
-
-**Must observe / 必须看到：**
-
-- The bottle, paper, branch, and window-light direction remain specific to this still life.
-- A source-derived quiet field visibly occupies roughly 40–60% of the frame.
-- Projected light becomes a major rhythm, and the score fields visibly reorganize at least half the frame.
-- A circular accent appears only when it is traceable to the stopper, reflection, or another factual circular source.
-
-**Reject / 拒绝：** a nearly intact product photo with a warm filter; arbitrary vertical stripes; an unrelated decorative circle; a quiet field that has no relationship to wall, tabletop, or light.
-
-**v0.2.1 evidence / v0.2.1 证据：** [showcase result](../examples/perfume-still-life-score.png) · [independent repeat run](results/perfume-still-life-gallery-score-v0.2.1.png) · [run note](v0.2.1-validation.md)
+**Current evidence / 当前证据：** [`misty-ginkgo-score.jpg`](../examples/misty-ginkgo-score.jpg) · [run note](v0.2-validation.md)
 
 ## Record / 记录
 

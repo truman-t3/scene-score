@@ -1,5 +1,15 @@
 # Changelog / 更新记录
 
+## v0.2.4 — 2026-09-04
+
+- Promotes a source-to-score stair-hall pair to the README's first screen, so visitors see the transformation before installation instructions.
+- Retires superseded v0.2.1 showcase assets from the active package and keeps three permission-cleared, reviewable public cases: rain street, stair hall, and misty ginkgo.
+- Aligns the Skill, evaluation set, reproduction protocol, and README with the three active checks; the former v0.2.1 evidence page is now an archive note.
+
+- 将“阶梯大厅原图 → 场景乐谱”对照放到 README 首屏，让访客先看到转译效果，再阅读安装方式。
+- 将已替代的 v0.2.1 展示素材从当前包中退役，保留雨街、阶梯大厅与雾湖银杏三组具备权限且可复查的公开案例。
+- 将 Skill、评测集、复现流程和 README 对齐为三条当前检查；原 v0.2.1 证据页改为归档说明。
+
 ## v0.2.3 — 2026-09-01
 
 - Licenses the repository's supplied example image assets under CC BY 4.0 and provides a bilingual attribution template.

@@ -4,7 +4,7 @@ Use this protocol when testing a material change with a person, agent, or image 
 
 ## Prepare / 准备
 
-1. Choose one permission-cleared photograph that is not already in `examples/` or the four formal checks.
+1. Choose one permission-cleared photograph that is not already in `examples/` or the three formal checks.
 2. Record the Skill version, agent or image model, date, input image, and the exact prompt or mode.
 3. Do not supply a showcase output as a style reference. Gallery Score may be requested explicitly.
 
